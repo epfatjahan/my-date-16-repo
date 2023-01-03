@@ -1,0 +1,54 @@
+.container{
+    width: 1000px;
+    text-align: center;
+}
+h1,p{
+    border: solid 5px blue;
+    width: cover;
+}
+h1{
+    background-color: bisque;
+    background-size: cover;
+    
+}
+p{
+    background-color: aqua;
+    color: black;
+    border: dotted 2px red;
+    padding: 10px;
+    
+}
+
+
+.ccc:link{
+    color: red;
+}
+.ccc:visited{
+    color: green;
+}
+.ccc:hover{ 
+    color: blue;
+}
+.ccc:active{ 
+    color: blueviolet;
+}
+.part{ 
+    margin-top: 20px;
+    width: cover;
+    height: 250px;
+    background-color: pink;
+    padding: 20px;
+}
+.left,.right{ 
+    width: 50%;
+    height: 250px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    padding-top: 40px;
+    border: none;
+    
+}
